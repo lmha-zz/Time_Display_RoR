@@ -1,0 +1,17 @@
+<div class='row'>
+  <div class="small-12 columns">
+    <p>The current time and date:</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="small-12 columns">
+    <p><%= @time.strftime("%b %d, %Y") %></p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="small-12 columns">
+    <p><%= @time.strftime("%I\:%M %p ") %></p>
+  </div>
+</div>
